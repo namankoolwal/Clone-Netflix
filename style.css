@@ -78,9 +78,6 @@ body {
   outline: none;
   border-radius: 4px;
   border: none;
-}
-.container .navbar .right button a {
-  text-decoration: none;
   color: white;
 }
 .container .title {
@@ -134,6 +131,7 @@ h3 {
   min-width: 300px;
   border: 0.5px solid gray;
   background: rgba(0, 0, 0, 0.521);
+  color: white;
 }
 ::placeholder {
   color: rgba(255, 255, 255, 0.712);
@@ -152,15 +150,13 @@ h3 {
   outline: none;
   border-radius: 5px;
   border: none;
+  color: white;
 }
 .container .title .content form .email button:hover,
 .container .navbar .right button:hover {
   background-color: #c11119;
 }
-.container .title .content form .email button a {
-  text-decoration: none;
-  color: white;
-}
+
 hr {
   height: 6px;
   background-color: rgb(35, 35, 35);
