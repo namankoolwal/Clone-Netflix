@@ -270,12 +270,6 @@ a {
 .ques button:hover {
   background-color: rgb(65, 65, 65);
 }
-.ques button span {
-  transition: transform 0.5s;
-}
-.ques button:hover span {
-  transform: rotate(45deg);
-}
 .ques button + ul {
   width: 75%;
   text-align: left;
